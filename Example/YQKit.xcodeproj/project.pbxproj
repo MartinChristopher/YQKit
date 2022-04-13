@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		103BB5A61B2B8EB20A863F6C /* Pods-YQKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YQKit_Tests/Pods-YQKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2497110D518CD2DF7ABEC264 /* YQKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YQKit.podspec; path = ../YQKit.podspec; sourceTree = "<group>"; };
+		2497110D518CD2DF7ABEC264 /* YQKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YQKit.podspec; path = ../YQKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		41F9924728763C7213BB87D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		44BFE49888CD81AE45FD7154 /* Pods_YQKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7C8988197F6EE535134300 /* Pods-YQKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-YQKit_Example/Pods-YQKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -207,6 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				4132B6C1189B5FE4A11BD7F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -317,6 +318,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4132B6C1189B5FE4A11BD7F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YQKit_Example/Pods-YQKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YQKit/YQKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YQKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YQKit_Example/Pods-YQKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D71E8B61DCDD16084ED56CB0 /* [CP] Check Pods Manifest.lock */ = {

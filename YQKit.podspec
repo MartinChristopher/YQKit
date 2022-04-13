@@ -19,8 +19,8 @@ TODO: Add long description of the pod here.
   s.author           = { 'MartinChristopher' => '519483040@qq.com' }
   s.source           = { :git => 'https://github.com/MartinChristopher/YQKit.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '11.0'
-  s.platform              = :ios, "11.0"
+  s.ios.deployment_target = '9.0'
+  s.platform              = :ios, "9.0"
 
   s.subspec 'YQAudio' do |audio|
   audio.source_files = 'YQKit/Classes/YQAudio/**/*'
