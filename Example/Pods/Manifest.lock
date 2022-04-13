@@ -1,0 +1,23 @@
+PODS:
+  - YQKit (0.0.1):
+    - YQKit/WOPageControl (= 0.0.1)
+    - YQKit/YQActionSheet (= 0.0.1)
+    - YQKit/YQAppPurchase (= 0.0.1)
+    - YQKit/YQAudio (= 0.0.1)
+    - YQKit/YQFlowLayout (= 0.0.1)
+    - YQKit/YQPageControl (= 0.0.1)
+    - YQKit/YQWaterFallLayout (= 0.0.1)
+
+DEPENDENCIES:
+  - YQKit (from `../`)
+
+EXTERNAL SOURCES:
+  YQKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YQKit: 9e641c446296f039e508fc0e5952ac0773c8bded
+
+PODFILE CHECKSUM: fd076af1e436e665a066df82b3fa54f96e0fbdad
+
+COCOAPODS: 1.11.3
