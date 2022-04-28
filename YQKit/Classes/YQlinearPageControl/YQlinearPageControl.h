@@ -1,12 +1,12 @@
 //
-//  WOPageControl.h
+//  YQlinearPageControl.h
 //
 //  Created by Apple on 2021/7/2.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface WOPageControl : UIView
+@interface YQlinearPageControl : UIView
 
 @property (nonatomic, assign) NSInteger numberOfPages;
 @property (nonatomic, assign) NSInteger currentPage;

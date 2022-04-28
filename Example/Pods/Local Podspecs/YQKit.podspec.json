@@ -40,20 +40,20 @@
       "source_files": "YQKit/Classes/YQPageControl/**/*"
     },
     {
-      "name": "WOPageControl",
-      "source_files": "YQKit/Classes/WOPageControl/**/*"
+      "name": "YQLinearPageControl",
+      "source_files": "YQKit/Classes/YQLinearPageControl/**/*"
     },
     {
       "name": "YQWaterFallLayout",
       "source_files": "YQKit/Classes/YQWaterFallLayout/**/*"
     },
     {
-      "name": "PagingEnableLayout",
-      "source_files": "YQKit/Classes/PagingEnableLayout/**/*"
+      "name": "YQPagingEnableLayout",
+      "source_files": "YQKit/Classes/YQPagingEnableLayout/**/*"
     },
     {
-      "name": "XJSwitch",
-      "source_files": "YQKit/Classes/XJSwitch/**/*"
+      "name": "YQSwitch",
+      "source_files": "YQKit/Classes/YQSwitch/**/*"
     }
   ]
 }

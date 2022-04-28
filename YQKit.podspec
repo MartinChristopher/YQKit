@@ -38,24 +38,24 @@ TODO: Add long description of the pod here.
   layout.source_files = 'YQKit/Classes/YQFlowLayout/**/*'
   end
   
-  s.subspec 'YQPageControl' do |yqpage|
-  yqpage.source_files = 'YQKit/Classes/YQPageControl/**/*'
+  s.subspec 'YQPageControl' do |page|
+  page.source_files = 'YQKit/Classes/YQPageControl/**/*'
   end
   
-  s.subspec 'WOPageControl' do |wopage|
-  wopage.source_files = 'YQKit/Classes/WOPageControl/**/*'
+  s.subspec 'YQLinearPageControl' do |linearpage|
+  linearpage.source_files = 'YQKit/Classes/YQLinearPageControl/**/*'
   end
   
   s.subspec 'YQWaterFallLayout' do |waterLayout|
   waterLayout.source_files = 'YQKit/Classes/YQWaterFallLayout/**/*'
   end
   
-  s.subspec 'PagingEnableLayout' do |pageLayout|
-  pageLayout.source_files = 'YQKit/Classes/PagingEnableLayout/**/*'
+  s.subspec 'YQPagingEnableLayout' do |pageLayout|
+  pageLayout.source_files = 'YQKit/Classes/YQPagingEnableLayout/**/*'
   end
   
-  s.subspec 'XJSwitch' do |switch|
-  switch.source_files = 'YQKit/Classes/XJSwitch/**/*'
+  s.subspec 'YQSwitch' do |switch|
+  switch.source_files = 'YQKit/Classes/YQSwitch/**/*'
   end
   
   # s.resource_bundles = {

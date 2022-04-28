@@ -1,14 +1,14 @@
 //
-//  PagingEnableLayout.m
+//  YQPagingEnableLayout.m
 //  SoloMe
 //
 //  Created by Apple on 2022/4/25.
 //
 
-#import "PagingEnableLayout.h"
+#import "YQPagingEnableLayout.h"
 #import <objc/message.h>
 
-@implementation PagingEnableLayout
+@implementation YQPagingEnableLayout
 
 - (void)prepareLayout {
     [super prepareLayout];

@@ -10,9 +10,6 @@
 #endif
 #endif
 
-#import "PagingEnableLayout.h"
-#import "WOPageControl.h"
-#import "XJSwitch.h"
 #import "UIView+YQActionSheet.h"
 #import "YQActionSheet.h"
 #import "YQButton.h"
@@ -27,7 +24,10 @@
 #import "YQFlowLayout.h"
 #import "YQFlowLayoutMacro.h"
 #import "YQFlowLayoutProtocol.h"
+#import "YQlinearPageControl.h"
 #import "YQPageControl.h"
+#import "YQPagingEnableLayout.h"
+#import "YQSwitch.h"
 #import "YQWaterFallLayout.h"
 
 FOUNDATION_EXPORT double YQKitVersionNumber;

@@ -1,12 +1,12 @@
 //
-//  WOPageControl.m
+//  YQlinearPageControl.m
 //
 //  Created by Apple on 2021/7/2.
 //
 
-#import "WOPageControl.h"
+#import "YQlinearPageControl.h"
 
-@interface WOPageControl ()
+@interface YQlinearPageControl ()
 
 @property (nonatomic, strong) NSMutableArray *dotViewArrayM;
 @property (nonatomic, assign) BOOL isInitialize;
@@ -14,7 +14,7 @@
 
 @end
 
-@implementation WOPageControl
+@implementation YQlinearPageControl
 
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];

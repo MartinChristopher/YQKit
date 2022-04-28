@@ -1,18 +1,16 @@
 
 //
-//  XJSwitch.m
-//  XJSwitch
+//  YQSwitch.m
 //
 //  Created by LXJ on 2017/11/24.
-//  Copyright © 2017年 LianLuo. All rights reserved.
 //
 
-#import "XJSwitch.h"
+#import "YQSwitch.h"
 
 NSString * const CircleMoveAnimationKey = @"CircleMoveAnimationKey";
 NSString * const BackgroundColorAnimationKey = @"BackgroundColorAnimationKey";
 
-@interface XJSwitch() <CAAnimationDelegate>
+@interface YQSwitch() <CAAnimationDelegate>
 
 @property (nonatomic, strong) UIView *backgroundView;
 
@@ -43,7 +41,7 @@ NSString * const BackgroundColorAnimationKey = @"BackgroundColorAnimationKey";
 
 @end
 
-@implementation XJSwitch
+@implementation YQSwitch
 
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];

@@ -1,5 +1,5 @@
 //
-//  PagingEnableLayout.h
+//  YQPagingEnableLayout.h
 //  SoloMe
 //
 //  Created by Apple on 2022/4/25.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PagingEnableLayout: UICollectionViewFlowLayout
+@interface YQPagingEnableLayout: UICollectionViewFlowLayout
 
 @property (nonatomic, assign) CGFloat scaleFactor;//缩放系数(越大缩放越大)
 

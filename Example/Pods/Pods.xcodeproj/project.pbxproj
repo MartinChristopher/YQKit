@@ -7,50 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00A92B815C7775F58321C3809D62E2F1 /* YQAudioProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2E98221429A342CB38BEA9CA345281 /* YQAudioProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08501F14FDA675AFC336512BFEB84953 /* RightAlignedFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FCF6630AD3C648F0E2BC7F4B922865 /* RightAlignedFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0939BEEA9D24A70EC29F952803D9C2CF /* YQActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 22346EA80610D0EB7B68E40405D9A86C /* YQActionSheet.m */; };
-		0C2E0634A3D213ADDA7B664D8B47EA86 /* YQPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F369722140E3DE69B0B3B25F72D69A /* YQPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18B066570A624D48F8A61B42345D09A4 /* LeftAlignedFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BD884895F2C3B1CE0642FF4E2075B421 /* LeftAlignedFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02BE758812CC313241B7EBD9F55F63BA /* YQAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = E487D227E5F2E9E273FA03C98A7D48A9 /* YQAudio.m */; };
+		0A01EC8C7C698D36201181C0C321BEB0 /* YQPagingEnableLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 94507CDEB1644E0AF26B319D6843D6A2 /* YQPagingEnableLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B26E40CD9ACB105A833CAD210B3A55A /* RightAlignedFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CC5C7595AA72D9A449EDC8C9A0056 /* RightAlignedFlowLayout.m */; };
+		107F76AA5725FAA8C9787D3E6CB8360C /* YQFlowLayoutMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C53D350B28BC6EB1637E9AD692BED20 /* YQFlowLayoutMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14EF3F81443DAF67CC681405D99EA5A8 /* YQlinearPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E882EAAE3701B2579F681A003CEB9E42 /* YQlinearPageControl.m */; };
+		161A93BD4908D638AA42FC071D751E77 /* YQlinearPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDCBFEF3E515FFCF5E7117C5BF5866A /* YQlinearPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A99E993933AB463825BC39154B4A7F8 /* YQAppPurchase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D84480C6FF342455D6DE0EC9ABD7000 /* YQAppPurchase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D493BFF3C9B9CFCE9854147F90D8317 /* Attribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEA1E3C5D848681F5EDFF2951BE614E /* Attribute.m */; };
+		1E877584339C55AA7B95EBF1946908F5 /* LeftAlignedFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FB238B30828ADCC8CFF156108227C4 /* LeftAlignedFlowLayout.m */; };
+		22E3F7E6C0FA19D0D2336BCF4AD2D35E /* YQPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 630437B0B0E3C14A9189ACF3A20A5AED /* YQPageControl.m */; };
 		22EF5FDDC97E25A3B5797C66F7AB2906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		298A7C41E2A477A9AA4DA3FEAA4F270B /* YQAppPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E70D728BC0F12CA672A5C9B28F896 /* YQAppPurchase.m */; };
-		2E6A0FB290B8745834A53722BD2D4778 /* YQFlowLayoutMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = E0E7D5C087D6705A39A84D40BAB0DF7F /* YQFlowLayoutMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28178AA5FD2EF778C0679CB1527EBD30 /* YQFlowLayoutProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A79799E8245402792670A5A791361754 /* YQFlowLayoutProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35518932D5B449CCC34EB387CCE6466F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		37120BC35E42D15A59B40FF05C6EB951 /* XJSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F83A4690D3F3C66F411A7AB622AE34 /* XJSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4050F7C73BAC15DB8F29C8F7777B61F8 /* YQActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C0131507114236B33FBB65395CC772 /* YQActionSheet.m */; };
+		42CCDFC3EF8DFF3D32E95B1C0E86A031 /* YQKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDF4D531AA855094F5B4B35DFA0C15A /* YQKit-dummy.m */; };
 		462229936C08DE5119C1F9F77E1F1DF5 /* Pods-YQKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A6DE05EE671143618D555359AAAF98C /* Pods-YQKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		509AF4058B5782C19B25E6FE78CFFFF4 /* YQAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 09049AA4AFEDC6DFD058BA7CDD23BADC /* YQAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B53CC103E0BC191C79F0E3E63CC7D1 /* YQAppPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C7F3992BF3EF42885E13566AC7F21 /* YQAppPurchase.m */; };
+		49FF97C3278FDF1734295FE2CD4F3239 /* RightAlignedFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = FD80D679DD3D8627A4BA6130C7BAE13E /* RightAlignedFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51924F3E9C0532C4224B1750D22BDFAE /* YQSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 753AE0D74C9488F9D4E13981A7824116 /* YQSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58C775728DA5114E06E4271BC3128442 /* Pods-YQKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF5867C0D1BC3E3BAB4B3C8F63D5E77 /* Pods-YQKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59B3786B114903B3C72B96EE4A3A7562 /* YQActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F4838E984DEB491FF46367A0481D84 /* YQActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		698149F362372DBC0AD3248105B110E7 /* YQAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDCFE2D9E55C5371BEE921F0D56C39 /* YQAudio.m */; };
-		750613AECDB13664467B3ED50526F471 /* YQAudioPlay.h in Headers */ = {isa = PBXBuildFile; fileRef = D0104BEFCCEF8BFDE56222DB7C5BBE09 /* YQAudioPlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80D2AFA423A9AB9C01CF8114C714C766 /* WOPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 285DF0E2931550C33BE05B411087D262 /* WOPageControl.m */; };
-		81BD3C15F09330EBDCE559B38F7098A7 /* YQFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3EB514D4DF8CC4416867E9EACD8A27 /* YQFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		893470AD17A6BD6C15573E2C2637E3A6 /* Attribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F90B51F2741188849C548DA7DF43DB6 /* Attribute.m */; };
-		8CA36A8558B0ADB07317D3F4EE0AEADE /* YQAudioPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 727EBC56192479B07AF3B507882E2CED /* YQAudioPlay.m */; };
-		8FC382B56019128C99F0D2E1A3B03F55 /* LayoutAttributeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CF823987B2004EB109FD482E341D5F /* LayoutAttributeTools.m */; };
-		9A39AAC57ECC25F830310F6618383FF1 /* WOPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 168EB9F40C688BC269542F9A95A51F48 /* WOPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AF603F372D5A7F1F610C8B811B81B7A /* YQKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58876ADC7F1DB1DCFD882A32A42941BA /* YQKit-dummy.m */; };
-		9E9052E82107D4AAE0E760A3926C7A04 /* LeftAlignedFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAC29132352C2145215ABBA0EA51AE0 /* LeftAlignedFlowLayout.m */; };
+		5FED762DB6C117D42AEB4D6EC93D7865 /* YQFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EE32A9175F8B2DF35514D05F98216365 /* YQFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		626F97C211959568146DEF20E6F33588 /* YQKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 344C1FC3DB75E352FA1E848CEDCC2C1B /* YQKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D6F75F68E757DF6B80A2E56CB0760AF /* UIView+YQActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DACB23446994226F01213ADF8A31F0F /* UIView+YQActionSheet.m */; };
+		7B080B624E0DB2A8FFC7416D33F62D98 /* UIView+YQActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = CD98D57F89C94E4DAFD59CC87CA33895 /* UIView+YQActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8501773E9B1D11554AE09D4918E59104 /* YQActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = CE7B839243A0678BE1C2AD9B3286C952 /* YQActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		891EE6B7ECE6275259B448377FBA3C3C /* YQWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BF76D2D58075087A12CB1DD209729D /* YQWaterFallLayout.m */; };
+		89D3EA6151DA7FD2D66CEA026D3D1CE9 /* YQPagingEnableLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6993B8F5194B8DDC83BD499C287C7657 /* YQPagingEnableLayout.m */; };
+		924C7F97E695B3225AA3D56467BE3625 /* LayoutAttributeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 95922D118366A4E762C6011D57879B30 /* LayoutAttributeTools.m */; };
+		92F1CE3638087558065199A2743FEAC7 /* YQAudioPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC2B7A210DE0D6F9736F84E15FE8536 /* YQAudioPlay.m */; };
+		95E27A57759EC2C7AB425E97B35D97F1 /* Attribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 467D02064C5785E26D0ACF588A9D024B /* Attribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E426DB14A89A8ECB8EA39F755949C5D /* YQAudioProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E284D896B47683DA98AA7216948F59 /* YQAudioProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1269160CFAE8EF0E25994BDD8B8A604 /* LeftAlignedFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C861239A693A5A5CEA8196AF83B86AB2 /* LeftAlignedFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A60705204D75673E9A4E8B97B2F9C577 /* Pods-YQKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FE2C83565B99FD2FF6671C698C1C28 /* Pods-YQKit_Example-dummy.m */; };
-		A663093A5B773548B8C19DE950F1B3D6 /* PagingEnableLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8213F938E9D02F422BC5D3DB3228BBB2 /* PagingEnableLayout.m */; };
-		AAFF4F5FEA57E60DA4E9DE8D3CBE2A5E /* YQButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8463D03B7C81684699927A717648BA7B /* YQButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF58191AEB2D0E8322B2CA21257E6C88 /* YQPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE0846783EDB5BDB4971A387F02D163 /* YQPageControl.m */; };
-		C36CF708FDBDA06B9F0464009B51827D /* YQButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADCBE7647D24FD39B92E3E08916CC94 /* YQButton.m */; };
-		C5299C358EE7A913280AE6D3708C5858 /* LayoutAttributeTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 798772495689F88358D88C9D1061DED0 /* LayoutAttributeTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C904AEEAC3165987DCD9D03FA6480FDC /* PagingEnableLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9A52BB20758C4C531B33D90764D8F2 /* PagingEnableLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAB347469C1D87E66B7A7FB6C93B7D09 /* YQFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ACDBF0A49DD9ACF9ECF29873ED52DB /* YQFlowLayout.m */; };
+		BE061442F7B2A892A1E93B65DE07FADC /* YQAudioPlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 21057759F15214F20FF20E76A8E0D44A /* YQAudioPlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C01899CD3CDCCCA10F7CB9AF4BA44B55 /* YQPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C6A400BA330176A0514BC5FE6C0022 /* YQPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C293AEEC9B0C1BA79CBD3457B3B11874 /* YQAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F9C29CA6ACD058E998DCDD976F8EFA /* YQAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB692FFA27573D19C97B2FA4525FA597 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CC52C4ACF9BA4C7D4A8BDF35D378A38D /* YQWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B003D2C7F26E7D2AA7F574756F3D2485 /* YQWaterFallLayout.m */; };
-		D0EB974651BB9E0C1BA5CCB436F1F6A3 /* UIView+YQActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C57518A33E5891D291AD6A6D41B4C /* UIView+YQActionSheet.m */; };
+		D157E97F480304B4021836961A206F66 /* YQButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 947A0AC8C6A381C7AF4669E5CED2D913 /* YQButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCB54271EF4E3DF9AD21D3C06571AA86 /* Pods-YQKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D762A89C3BB0CFA006CCECDD669423 /* Pods-YQKit_Tests-dummy.m */; };
-		DCC379576D5ADDB797F9FD27E907DC61 /* YQKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 764F695F69A8EE1352B9A8CEF5F4C9D6 /* YQKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD5BE2655F2816ED7281AC0A20745460 /* RightAlignedFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B96BBB96D99505A4BD2CD58809534F7B /* RightAlignedFlowLayout.m */; };
-		E1E6024725CA5A7963B763AF5D724E10 /* YQWaterFallLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A0333A8236C18BA4F66785A41072341A /* YQWaterFallLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE6ACB7C300001BFFB49E499BAA844D0 /* XJSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7DF8BF8503B829BADAA30238EAAAC2 /* XJSwitch.m */; };
-		EF34BFBDE651377DA7ED2334F3396449 /* YQFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 358CD9872409DD4BA89F88D499AD19E9 /* YQFlowLayout.m */; };
-		F27D81303710315B169F704BD80811F8 /* YQAppPurchase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3616D5A6245573B1C4292996D08324AF /* YQAppPurchase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2CF4152B5C4125C1581208D7CCEF1DC /* UIView+YQActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A891E7ED4123AA095C6BADB1C81F038 /* UIView+YQActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F99B12BB27F06471E4CD1B9472E12FBC /* Attribute.h in Headers */ = {isa = PBXBuildFile; fileRef = B9CE16E8D357A249BA90C2E505E94A06 /* Attribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9A40F54B160712B69A3CD68B11E5ADF /* YQFlowLayoutProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E9AEBF0CB4D99AAA32419C54372806 /* YQFlowLayoutProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5F08A904D5627A738B8C68955FBCA23 /* YQSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CD09BF95226E31D87CBE553787BDD2 /* YQSwitch.m */; };
+		EED3E98725BEB1BB4DA7A91C96B89D80 /* LayoutAttributeTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 49982526E19BA4DB8A0D85C855D924B7 /* LayoutAttributeTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F722B8C02FD533B7B380C6D142431E63 /* YQButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 593CE194C4607B31ECEFA055FB2B5775 /* YQButton.m */; };
+		FC7881025B7BC0EDD2A0375DD0022747 /* YQWaterFallLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A290396740057771A3E9EF78B1741EC3 /* YQWaterFallLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,72 +72,72 @@
 
 /* Begin PBXFileReference section */
 		05FE2C83565B99FD2FF6671C698C1C28 /* Pods-YQKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQKit_Example-dummy.m"; sourceTree = "<group>"; };
-		09049AA4AFEDC6DFD058BA7CDD23BADC /* YQAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQAudio.h; path = YQKit/Classes/YQAudio/YQAudio.h; sourceTree = "<group>"; };
-		0A891E7ED4123AA095C6BADB1C81F038 /* UIView+YQActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YQActionSheet.h"; path = "YQKit/Classes/YQActionSheet/UIView+YQActionSheet.h"; sourceTree = "<group>"; };
 		0BAF0798201A0DC6C4B4F600A1A75FB2 /* Pods-YQKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YQKit_Example"; path = Pods_YQKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		15CF823987B2004EB109FD482E341D5F /* LayoutAttributeTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LayoutAttributeTools.m; path = YQKit/Classes/YQFlowLayout/LayoutAttributeTools.m; sourceTree = "<group>"; };
-		168EB9F40C688BC269542F9A95A51F48 /* WOPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WOPageControl.h; path = YQKit/Classes/WOPageControl/WOPageControl.h; sourceTree = "<group>"; };
-		18E9AEBF0CB4D99AAA32419C54372806 /* YQFlowLayoutProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQFlowLayoutProtocol.h; path = YQKit/Classes/YQFlowLayout/YQFlowLayoutProtocol.h; sourceTree = "<group>"; };
-		1A2E98221429A342CB38BEA9CA345281 /* YQAudioProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQAudioProtocol.h; path = YQKit/Classes/YQAudio/YQAudioProtocol.h; sourceTree = "<group>"; };
-		1E6E70D728BC0F12CA672A5C9B28F896 /* YQAppPurchase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQAppPurchase.m; path = YQKit/Classes/YQAppPurchase/YQAppPurchase.m; sourceTree = "<group>"; };
-		200340B94F642BB48A2A2750E18CC442 /* YQKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQKit.release.xcconfig; sourceTree = "<group>"; };
-		22346EA80610D0EB7B68E40405D9A86C /* YQActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQActionSheet.m; path = YQKit/Classes/YQActionSheet/YQActionSheet.m; sourceTree = "<group>"; };
-		285DF0E2931550C33BE05B411087D262 /* WOPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WOPageControl.m; path = YQKit/Classes/WOPageControl/WOPageControl.m; sourceTree = "<group>"; };
-		358CD9872409DD4BA89F88D499AD19E9 /* YQFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQFlowLayout.m; path = YQKit/Classes/YQFlowLayout/YQFlowLayout.m; sourceTree = "<group>"; };
-		3616D5A6245573B1C4292996D08324AF /* YQAppPurchase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQAppPurchase.h; path = YQKit/Classes/YQAppPurchase/YQAppPurchase.h; sourceTree = "<group>"; };
-		4248418FA97E098E878F2A0DE698BFCA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4279B6B5ABC88D075EED6D8F91166723 /* YQKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YQKit-Info.plist"; sourceTree = "<group>"; };
+		0D84480C6FF342455D6DE0EC9ABD7000 /* YQAppPurchase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQAppPurchase.h; path = YQKit/Classes/YQAppPurchase/YQAppPurchase.h; sourceTree = "<group>"; };
+		1A2A739CB33690FA0028CAA36DC86469 /* YQKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQKit.release.xcconfig; sourceTree = "<group>"; };
+		1B0CC5C7595AA72D9A449EDC8C9A0056 /* RightAlignedFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RightAlignedFlowLayout.m; path = YQKit/Classes/YQFlowLayout/RightAlignedFlowLayout.m; sourceTree = "<group>"; };
+		1B1697975FDB132622960342E2004B5D /* YQKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YQKit-Info.plist"; sourceTree = "<group>"; };
+		1C53D350B28BC6EB1637E9AD692BED20 /* YQFlowLayoutMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQFlowLayoutMacro.h; path = YQKit/Classes/YQFlowLayout/YQFlowLayoutMacro.h; sourceTree = "<group>"; };
+		21057759F15214F20FF20E76A8E0D44A /* YQAudioPlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQAudioPlay.h; path = YQKit/Classes/YQAudio/YQAudioPlay.h; sourceTree = "<group>"; };
+		33E3E379008B431F5300A31BD94E72CC /* YQKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YQKit.modulemap; sourceTree = "<group>"; };
+		344C1FC3DB75E352FA1E848CEDCC2C1B /* YQKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQKit-umbrella.h"; sourceTree = "<group>"; };
+		467D02064C5785E26D0ACF588A9D024B /* Attribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Attribute.h; path = YQKit/Classes/YQFlowLayout/Attribute.h; sourceTree = "<group>"; };
 		486EEFDB82DC98ADC7D273A6982E96CD /* Pods-YQKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		495B890DC4F7466F5B1C35BDB8F97481 /* YQKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YQKit.modulemap; sourceTree = "<group>"; };
-		4A9A52BB20758C4C531B33D90764D8F2 /* PagingEnableLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PagingEnableLayout.h; path = YQKit/Classes/PagingEnableLayout/PagingEnableLayout.h; sourceTree = "<group>"; };
+		49982526E19BA4DB8A0D85C855D924B7 /* LayoutAttributeTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LayoutAttributeTools.h; path = YQKit/Classes/YQFlowLayout/LayoutAttributeTools.h; sourceTree = "<group>"; };
+		4DACB23446994226F01213ADF8A31F0F /* UIView+YQActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YQActionSheet.m"; path = "YQKit/Classes/YQActionSheet/UIView+YQActionSheet.m"; sourceTree = "<group>"; };
 		50D49835145441ECDEA9C4C15342A32A /* Pods-YQKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQKit_Example-Info.plist"; sourceTree = "<group>"; };
-		5227996FA368A7D91D5909B0E4983976 /* YQKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQKit.debug.xcconfig; sourceTree = "<group>"; };
 		54282B1F4C51F38F08BE9032C01693D4 /* Pods-YQKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YQKit_Example.modulemap"; sourceTree = "<group>"; };
-		56F83A4690D3F3C66F411A7AB622AE34 /* XJSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XJSwitch.h; path = YQKit/Classes/XJSwitch/XJSwitch.h; sourceTree = "<group>"; };
-		58876ADC7F1DB1DCFD882A32A42941BA /* YQKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YQKit-dummy.m"; sourceTree = "<group>"; };
-		5BFDCFE2D9E55C5371BEE921F0D56C39 /* YQAudio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQAudio.m; path = YQKit/Classes/YQAudio/YQAudio.m; sourceTree = "<group>"; };
-		5CAC29132352C2145215ABBA0EA51AE0 /* LeftAlignedFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LeftAlignedFlowLayout.m; path = YQKit/Classes/YQFlowLayout/LeftAlignedFlowLayout.m; sourceTree = "<group>"; };
+		593CE194C4607B31ECEFA055FB2B5775 /* YQButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQButton.m; path = YQKit/Classes/YQActionSheet/YQButton.m; sourceTree = "<group>"; };
 		61AA9DA640A408E34F710FA03C8E333B /* Pods-YQKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		62BF76D2D58075087A12CB1DD209729D /* YQWaterFallLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQWaterFallLayout.m; path = YQKit/Classes/YQWaterFallLayout/YQWaterFallLayout.m; sourceTree = "<group>"; };
+		63042E0EFBA3BD659C1BA06E1F93EFD8 /* YQKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQKit-prefix.pch"; sourceTree = "<group>"; };
+		630437B0B0E3C14A9189ACF3A20A5AED /* YQPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQPageControl.m; path = YQKit/Classes/YQPageControl/YQPageControl.m; sourceTree = "<group>"; };
 		654DC3FBD7C6DB0AC22D0544583326DF /* Pods-YQKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		687588C85242DE887228BE779534D361 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6993B8F5194B8DDC83BD499C287C7657 /* YQPagingEnableLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQPagingEnableLayout.m; path = YQKit/Classes/YQPagingEnableLayout/YQPagingEnableLayout.m; sourceTree = "<group>"; };
 		6AA730B2AF99C053122204EE148D139D /* Pods-YQKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6ADCBE7647D24FD39B92E3E08916CC94 /* YQButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQButton.m; path = YQKit/Classes/YQActionSheet/YQButton.m; sourceTree = "<group>"; };
-		6D3C57518A33E5891D291AD6A6D41B4C /* UIView+YQActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YQActionSheet.m"; path = "YQKit/Classes/YQActionSheet/UIView+YQActionSheet.m"; sourceTree = "<group>"; };
-		727EBC56192479B07AF3B507882E2CED /* YQAudioPlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQAudioPlay.m; path = YQKit/Classes/YQAudio/YQAudioPlay.m; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73FCF6630AD3C648F0E2BC7F4B922865 /* RightAlignedFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RightAlignedFlowLayout.h; path = YQKit/Classes/YQFlowLayout/RightAlignedFlowLayout.h; sourceTree = "<group>"; };
-		764F695F69A8EE1352B9A8CEF5F4C9D6 /* YQKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQKit-umbrella.h"; sourceTree = "<group>"; };
-		798772495689F88358D88C9D1061DED0 /* LayoutAttributeTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LayoutAttributeTools.h; path = YQKit/Classes/YQFlowLayout/LayoutAttributeTools.h; sourceTree = "<group>"; };
+		753AE0D74C9488F9D4E13981A7824116 /* YQSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQSwitch.h; path = YQKit/Classes/YQSwitch/YQSwitch.h; sourceTree = "<group>"; };
 		7A6DE05EE671143618D555359AAAF98C /* Pods-YQKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YQKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		7F90B51F2741188849C548DA7DF43DB6 /* Attribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Attribute.m; path = YQKit/Classes/YQFlowLayout/Attribute.m; sourceTree = "<group>"; };
 		8188A4450ECAF5FA706758DF083F0AB3 /* Pods-YQKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YQKit_Tests.modulemap"; sourceTree = "<group>"; };
-		8213F938E9D02F422BC5D3DB3228BBB2 /* PagingEnableLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PagingEnableLayout.m; path = YQKit/Classes/PagingEnableLayout/PagingEnableLayout.m; sourceTree = "<group>"; };
-		8463D03B7C81684699927A717648BA7B /* YQButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQButton.h; path = YQKit/Classes/YQActionSheet/YQButton.h; sourceTree = "<group>"; };
+		84ACDBF0A49DD9ACF9ECF29873ED52DB /* YQFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQFlowLayout.m; path = YQKit/Classes/YQFlowLayout/YQFlowLayout.m; sourceTree = "<group>"; };
+		870CD7102E1DC798D30C5C987896F61D /* YQKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQKit.debug.xcconfig; sourceTree = "<group>"; };
 		8744F7C45AA7420FFE6A49AAAC05C2F2 /* Pods-YQKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		88E2FB4782B4135E3628F247B7245037 /* Pods-YQKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8F7DF8BF8503B829BADAA30238EAAAC2 /* XJSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XJSwitch.m; path = YQKit/Classes/XJSwitch/XJSwitch.m; sourceTree = "<group>"; };
+		94507CDEB1644E0AF26B319D6843D6A2 /* YQPagingEnableLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQPagingEnableLayout.h; path = YQKit/Classes/YQPagingEnableLayout/YQPagingEnableLayout.h; sourceTree = "<group>"; };
+		947A0AC8C6A381C7AF4669E5CED2D913 /* YQButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQButton.h; path = YQKit/Classes/YQActionSheet/YQButton.h; sourceTree = "<group>"; };
+		95922D118366A4E762C6011D57879B30 /* LayoutAttributeTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LayoutAttributeTools.m; path = YQKit/Classes/YQFlowLayout/LayoutAttributeTools.m; sourceTree = "<group>"; };
 		98735D6162878C5EC7255DB08DF8F310 /* Pods-YQKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		98F22411FB6C2582F41BA671D2BC95C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		98F369722140E3DE69B0B3B25F72D69A /* YQPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQPageControl.h; path = YQKit/Classes/YQPageControl/YQPageControl.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0333A8236C18BA4F66785A41072341A /* YQWaterFallLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQWaterFallLayout.h; path = YQKit/Classes/YQWaterFallLayout/YQWaterFallLayout.h; sourceTree = "<group>"; };
+		A290396740057771A3E9EF78B1741EC3 /* YQWaterFallLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQWaterFallLayout.h; path = YQKit/Classes/YQWaterFallLayout/YQWaterFallLayout.h; sourceTree = "<group>"; };
+		A79799E8245402792670A5A791361754 /* YQFlowLayoutProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQFlowLayoutProtocol.h; path = YQKit/Classes/YQFlowLayout/YQFlowLayoutProtocol.h; sourceTree = "<group>"; };
+		A9CD09BF95226E31D87CBE553787BDD2 /* YQSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQSwitch.m; path = YQKit/Classes/YQSwitch/YQSwitch.m; sourceTree = "<group>"; };
 		ACF5867C0D1BC3E3BAB4B3C8F63D5E77 /* Pods-YQKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YQKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AE0EF21EA2C7EA320EBABCE607BEEC68 /* Pods-YQKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YQKit_Tests"; path = Pods_YQKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B003D2C7F26E7D2AA7F574756F3D2485 /* YQWaterFallLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQWaterFallLayout.m; path = YQKit/Classes/YQWaterFallLayout/YQWaterFallLayout.m; sourceTree = "<group>"; };
 		B0D762A89C3BB0CFA006CCECDD669423 /* Pods-YQKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		B2F4838E984DEB491FF46367A0481D84 /* YQActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQActionSheet.h; path = YQKit/Classes/YQActionSheet/YQActionSheet.h; sourceTree = "<group>"; };
+		B4E284D896B47683DA98AA7216948F59 /* YQAudioProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQAudioProtocol.h; path = YQKit/Classes/YQAudio/YQAudioProtocol.h; sourceTree = "<group>"; };
 		B66EC6841E1C50E7DA68079D113ED497 /* YQKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YQKit; path = YQKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B96BBB96D99505A4BD2CD58809534F7B /* RightAlignedFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RightAlignedFlowLayout.m; path = YQKit/Classes/YQFlowLayout/RightAlignedFlowLayout.m; sourceTree = "<group>"; };
-		B9CE16E8D357A249BA90C2E505E94A06 /* Attribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Attribute.h; path = YQKit/Classes/YQFlowLayout/Attribute.h; sourceTree = "<group>"; };
-		BB3EB514D4DF8CC4416867E9EACD8A27 /* YQFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQFlowLayout.h; path = YQKit/Classes/YQFlowLayout/YQFlowLayout.h; sourceTree = "<group>"; };
-		BD884895F2C3B1CE0642FF4E2075B421 /* LeftAlignedFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LeftAlignedFlowLayout.h; path = YQKit/Classes/YQFlowLayout/LeftAlignedFlowLayout.h; sourceTree = "<group>"; };
+		BCDCBFEF3E515FFCF5E7117C5BF5866A /* YQlinearPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQlinearPageControl.h; path = YQKit/Classes/YQlinearPageControl/YQlinearPageControl.h; sourceTree = "<group>"; };
 		C7302C6604F1CEDC044E8C686FAD5E67 /* Pods-YQKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C861239A693A5A5CEA8196AF83B86AB2 /* LeftAlignedFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LeftAlignedFlowLayout.h; path = YQKit/Classes/YQFlowLayout/LeftAlignedFlowLayout.h; sourceTree = "<group>"; };
+		C8C6A400BA330176A0514BC5FE6C0022 /* YQPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQPageControl.h; path = YQKit/Classes/YQPageControl/YQPageControl.h; sourceTree = "<group>"; };
 		CC05830D73F3F749D8248609521E119B /* Pods-YQKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D0104BEFCCEF8BFDE56222DB7C5BBE09 /* YQAudioPlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQAudioPlay.h; path = YQKit/Classes/YQAudio/YQAudioPlay.h; sourceTree = "<group>"; };
-		E0E7D5C087D6705A39A84D40BAB0DF7F /* YQFlowLayoutMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQFlowLayoutMacro.h; path = YQKit/Classes/YQFlowLayout/YQFlowLayoutMacro.h; sourceTree = "<group>"; };
+		CD98D57F89C94E4DAFD59CC87CA33895 /* UIView+YQActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YQActionSheet.h"; path = "YQKit/Classes/YQActionSheet/UIView+YQActionSheet.h"; sourceTree = "<group>"; };
+		CE7B839243A0678BE1C2AD9B3286C952 /* YQActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQActionSheet.h; path = YQKit/Classes/YQActionSheet/YQActionSheet.h; sourceTree = "<group>"; };
+		D4F9C29CA6ACD058E998DCDD976F8EFA /* YQAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQAudio.h; path = YQKit/Classes/YQAudio/YQAudio.h; sourceTree = "<group>"; };
+		DA9C7F3992BF3EF42885E13566AC7F21 /* YQAppPurchase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQAppPurchase.m; path = YQKit/Classes/YQAppPurchase/YQAppPurchase.m; sourceTree = "<group>"; };
+		DCDF4D531AA855094F5B4B35DFA0C15A /* YQKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YQKit-dummy.m"; sourceTree = "<group>"; };
+		DEC2B7A210DE0D6F9736F84E15FE8536 /* YQAudioPlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQAudioPlay.m; path = YQKit/Classes/YQAudio/YQAudioPlay.m; sourceTree = "<group>"; };
+		E487D227E5F2E9E273FA03C98A7D48A9 /* YQAudio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQAudio.m; path = YQKit/Classes/YQAudio/YQAudio.m; sourceTree = "<group>"; };
 		E84E01012147A02832499727770E39EF /* Pods-YQKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EFAE6E85347127D1B14FCA4C1256BDDC /* YQKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YQKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EFE0846783EDB5BDB4971A387F02D163 /* YQPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQPageControl.m; path = YQKit/Classes/YQPageControl/YQPageControl.m; sourceTree = "<group>"; };
-		F580A4D701AD3C97812E2EB05E45172D /* YQKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQKit-prefix.pch"; sourceTree = "<group>"; };
+		E882EAAE3701B2579F681A003CEB9E42 /* YQlinearPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQlinearPageControl.m; path = YQKit/Classes/YQlinearPageControl/YQlinearPageControl.m; sourceTree = "<group>"; };
+		E9C0131507114236B33FBB65395CC772 /* YQActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQActionSheet.m; path = YQKit/Classes/YQActionSheet/YQActionSheet.m; sourceTree = "<group>"; };
+		ECEA1E3C5D848681F5EDFF2951BE614E /* Attribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Attribute.m; path = YQKit/Classes/YQFlowLayout/Attribute.m; sourceTree = "<group>"; };
+		EE32A9175F8B2DF35514D05F98216365 /* YQFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQFlowLayout.h; path = YQKit/Classes/YQFlowLayout/YQFlowLayout.h; sourceTree = "<group>"; };
+		F0EFA69B89E7C4E3C213B2DC4751513E /* YQKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YQKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F136C4D69A8EFDA00C286C7104BB4723 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F4FB238B30828ADCC8CFF156108227C4 /* LeftAlignedFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LeftAlignedFlowLayout.m; path = YQKit/Classes/YQFlowLayout/LeftAlignedFlowLayout.m; sourceTree = "<group>"; };
+		FD80D679DD3D8627A4BA6130C7BAE13E /* RightAlignedFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RightAlignedFlowLayout.h; path = YQKit/Classes/YQFlowLayout/RightAlignedFlowLayout.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,25 +187,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		0403E12DC8E95D1D63ACC33AB60B9431 /* YQFlowLayout */ = {
-			isa = PBXGroup;
-			children = (
-				B9CE16E8D357A249BA90C2E505E94A06 /* Attribute.h */,
-				7F90B51F2741188849C548DA7DF43DB6 /* Attribute.m */,
-				798772495689F88358D88C9D1061DED0 /* LayoutAttributeTools.h */,
-				15CF823987B2004EB109FD482E341D5F /* LayoutAttributeTools.m */,
-				BD884895F2C3B1CE0642FF4E2075B421 /* LeftAlignedFlowLayout.h */,
-				5CAC29132352C2145215ABBA0EA51AE0 /* LeftAlignedFlowLayout.m */,
-				73FCF6630AD3C648F0E2BC7F4B922865 /* RightAlignedFlowLayout.h */,
-				B96BBB96D99505A4BD2CD58809534F7B /* RightAlignedFlowLayout.m */,
-				BB3EB514D4DF8CC4416867E9EACD8A27 /* YQFlowLayout.h */,
-				358CD9872409DD4BA89F88D499AD19E9 /* YQFlowLayout.m */,
-				E0E7D5C087D6705A39A84D40BAB0DF7F /* YQFlowLayoutMacro.h */,
-				18E9AEBF0CB4D99AAA32419C54372806 /* YQFlowLayoutProtocol.h */,
-			);
-			name = YQFlowLayout;
-			sourceTree = "<group>";
-		};
 		0845A5E4E751F2580D2479725708CE51 /* Pods-YQKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,80 +203,52 @@
 			path = "Target Support Files/Pods-YQKit_Tests";
 			sourceTree = "<group>";
 		};
-		0F3B5D77AA54CAB535FA89FA0288794F /* YQPageControl */ = {
+		12C9EC92B51B4D2E160DC843C5FC83FC /* YQAudio */ = {
 			isa = PBXGroup;
 			children = (
-				98F369722140E3DE69B0B3B25F72D69A /* YQPageControl.h */,
-				EFE0846783EDB5BDB4971A387F02D163 /* YQPageControl.m */,
+				D4F9C29CA6ACD058E998DCDD976F8EFA /* YQAudio.h */,
+				E487D227E5F2E9E273FA03C98A7D48A9 /* YQAudio.m */,
+				21057759F15214F20FF20E76A8E0D44A /* YQAudioPlay.h */,
+				DEC2B7A210DE0D6F9736F84E15FE8536 /* YQAudioPlay.m */,
+				B4E284D896B47683DA98AA7216948F59 /* YQAudioProtocol.h */,
 			);
-			name = YQPageControl;
-			sourceTree = "<group>";
-		};
-		15F30C6D6496E9E35DB938765F8AD2E8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				495B890DC4F7466F5B1C35BDB8F97481 /* YQKit.modulemap */,
-				58876ADC7F1DB1DCFD882A32A42941BA /* YQKit-dummy.m */,
-				4279B6B5ABC88D075EED6D8F91166723 /* YQKit-Info.plist */,
-				F580A4D701AD3C97812E2EB05E45172D /* YQKit-prefix.pch */,
-				764F695F69A8EE1352B9A8CEF5F4C9D6 /* YQKit-umbrella.h */,
-				5227996FA368A7D91D5909B0E4983976 /* YQKit.debug.xcconfig */,
-				200340B94F642BB48A2A2750E18CC442 /* YQKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YQKit";
-			sourceTree = "<group>";
-		};
-		19E5A1A89C1A08FE1A7F4E1545D143EF /* YQKit */ = {
-			isa = PBXGroup;
-			children = (
-				AC95D8E7836E02D06FBC8ECDEB0E196C /* PagingEnableLayout */,
-				CB6430817741ABB1902202EDD1B6DC73 /* Pod */,
-				15F30C6D6496E9E35DB938765F8AD2E8 /* Support Files */,
-				A9A8F568A8F013C0A9A8964D14F0A15F /* WOPageControl */,
-				DD12D7B3A5D0F93070D6D757923970C2 /* XJSwitch */,
-				2688DF6625F8FD233B5567609D340786 /* YQActionSheet */,
-				7EEA8160DEBFABE5B8AC86A324933BFE /* YQAppPurchase */,
-				388B47D2BDC645B3239E9E5F0BAF19FF /* YQAudio */,
-				0403E12DC8E95D1D63ACC33AB60B9431 /* YQFlowLayout */,
-				0F3B5D77AA54CAB535FA89FA0288794F /* YQPageControl */,
-				B4B10BFF9223E15093E3ADA8D2030A0D /* YQWaterFallLayout */,
-			);
-			name = YQKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2688DF6625F8FD233B5567609D340786 /* YQActionSheet */ = {
-			isa = PBXGroup;
-			children = (
-				0A891E7ED4123AA095C6BADB1C81F038 /* UIView+YQActionSheet.h */,
-				6D3C57518A33E5891D291AD6A6D41B4C /* UIView+YQActionSheet.m */,
-				B2F4838E984DEB491FF46367A0481D84 /* YQActionSheet.h */,
-				22346EA80610D0EB7B68E40405D9A86C /* YQActionSheet.m */,
-				8463D03B7C81684699927A717648BA7B /* YQButton.h */,
-				6ADCBE7647D24FD39B92E3E08916CC94 /* YQButton.m */,
-			);
-			name = YQActionSheet;
+			name = YQAudio;
 			sourceTree = "<group>";
 		};
 		27257DBC05C6D839CCC364C6BD0B09E7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				19E5A1A89C1A08FE1A7F4E1545D143EF /* YQKit */,
+				A10C9D7157623939496AC0A697A95A09 /* YQKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		388B47D2BDC645B3239E9E5F0BAF19FF /* YQAudio */ = {
+		32666F1E4636457CFEAE8403899C830B /* YQLinearPageControl */ = {
 			isa = PBXGroup;
 			children = (
-				09049AA4AFEDC6DFD058BA7CDD23BADC /* YQAudio.h */,
-				5BFDCFE2D9E55C5371BEE921F0D56C39 /* YQAudio.m */,
-				D0104BEFCCEF8BFDE56222DB7C5BBE09 /* YQAudioPlay.h */,
-				727EBC56192479B07AF3B507882E2CED /* YQAudioPlay.m */,
-				1A2E98221429A342CB38BEA9CA345281 /* YQAudioProtocol.h */,
+				BCDCBFEF3E515FFCF5E7117C5BF5866A /* YQlinearPageControl.h */,
+				E882EAAE3701B2579F681A003CEB9E42 /* YQlinearPageControl.m */,
 			);
-			name = YQAudio;
+			name = YQLinearPageControl;
+			sourceTree = "<group>";
+		};
+		36230D894C95261D45BECEFCE8F3B9C1 /* YQWaterFallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A290396740057771A3E9EF78B1741EC3 /* YQWaterFallLayout.h */,
+				62BF76D2D58075087A12CB1DD209729D /* YQWaterFallLayout.m */,
+			);
+			name = YQWaterFallLayout;
+			sourceTree = "<group>";
+		};
+		52707FEB93BFC7EB742D974127712770 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F136C4D69A8EFDA00C286C7104BB4723 /* LICENSE */,
+				687588C85242DE887228BE779534D361 /* README.md */,
+				F0EFA69B89E7C4E3C213B2DC4751513E /* YQKit.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -306,50 +259,73 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7EEA8160DEBFABE5B8AC86A324933BFE /* YQAppPurchase */ = {
+		69DC06BD33D428D2C0C053F66F95132E /* YQSwitch */ = {
 			isa = PBXGroup;
 			children = (
-				3616D5A6245573B1C4292996D08324AF /* YQAppPurchase.h */,
-				1E6E70D728BC0F12CA672A5C9B28F896 /* YQAppPurchase.m */,
+				753AE0D74C9488F9D4E13981A7824116 /* YQSwitch.h */,
+				A9CD09BF95226E31D87CBE553787BDD2 /* YQSwitch.m */,
 			);
-			name = YQAppPurchase;
+			name = YQSwitch;
 			sourceTree = "<group>";
 		};
-		A9A8F568A8F013C0A9A8964D14F0A15F /* WOPageControl */ = {
+		6BA452ADAE50A504677699A74B77F6AD /* YQActionSheet */ = {
 			isa = PBXGroup;
 			children = (
-				168EB9F40C688BC269542F9A95A51F48 /* WOPageControl.h */,
-				285DF0E2931550C33BE05B411087D262 /* WOPageControl.m */,
+				CD98D57F89C94E4DAFD59CC87CA33895 /* UIView+YQActionSheet.h */,
+				4DACB23446994226F01213ADF8A31F0F /* UIView+YQActionSheet.m */,
+				CE7B839243A0678BE1C2AD9B3286C952 /* YQActionSheet.h */,
+				E9C0131507114236B33FBB65395CC772 /* YQActionSheet.m */,
+				947A0AC8C6A381C7AF4669E5CED2D913 /* YQButton.h */,
+				593CE194C4607B31ECEFA055FB2B5775 /* YQButton.m */,
 			);
-			name = WOPageControl;
+			name = YQActionSheet;
 			sourceTree = "<group>";
 		};
-		AC95D8E7836E02D06FBC8ECDEB0E196C /* PagingEnableLayout */ = {
+		814BFB7E000299AE4AC4362678850D86 /* YQFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
-				4A9A52BB20758C4C531B33D90764D8F2 /* PagingEnableLayout.h */,
-				8213F938E9D02F422BC5D3DB3228BBB2 /* PagingEnableLayout.m */,
+				467D02064C5785E26D0ACF588A9D024B /* Attribute.h */,
+				ECEA1E3C5D848681F5EDFF2951BE614E /* Attribute.m */,
+				49982526E19BA4DB8A0D85C855D924B7 /* LayoutAttributeTools.h */,
+				95922D118366A4E762C6011D57879B30 /* LayoutAttributeTools.m */,
+				C861239A693A5A5CEA8196AF83B86AB2 /* LeftAlignedFlowLayout.h */,
+				F4FB238B30828ADCC8CFF156108227C4 /* LeftAlignedFlowLayout.m */,
+				FD80D679DD3D8627A4BA6130C7BAE13E /* RightAlignedFlowLayout.h */,
+				1B0CC5C7595AA72D9A449EDC8C9A0056 /* RightAlignedFlowLayout.m */,
+				EE32A9175F8B2DF35514D05F98216365 /* YQFlowLayout.h */,
+				84ACDBF0A49DD9ACF9ECF29873ED52DB /* YQFlowLayout.m */,
+				1C53D350B28BC6EB1637E9AD692BED20 /* YQFlowLayoutMacro.h */,
+				A79799E8245402792670A5A791361754 /* YQFlowLayoutProtocol.h */,
 			);
-			name = PagingEnableLayout;
+			name = YQFlowLayout;
 			sourceTree = "<group>";
 		};
-		B4B10BFF9223E15093E3ADA8D2030A0D /* YQWaterFallLayout */ = {
+		A10C9D7157623939496AC0A697A95A09 /* YQKit */ = {
 			isa = PBXGroup;
 			children = (
-				A0333A8236C18BA4F66785A41072341A /* YQWaterFallLayout.h */,
-				B003D2C7F26E7D2AA7F574756F3D2485 /* YQWaterFallLayout.m */,
+				52707FEB93BFC7EB742D974127712770 /* Pod */,
+				DAFBB2E55830874727AF591FFE705946 /* Support Files */,
+				6BA452ADAE50A504677699A74B77F6AD /* YQActionSheet */,
+				D0D468E0C561F5912F917CCC73A72D57 /* YQAppPurchase */,
+				12C9EC92B51B4D2E160DC843C5FC83FC /* YQAudio */,
+				814BFB7E000299AE4AC4362678850D86 /* YQFlowLayout */,
+				32666F1E4636457CFEAE8403899C830B /* YQLinearPageControl */,
+				BAF862B039B3989877E3258E2AB19DEB /* YQPageControl */,
+				E36E9398A85AE28AD4618BE8C6D5276E /* YQPagingEnableLayout */,
+				69DC06BD33D428D2C0C053F66F95132E /* YQSwitch */,
+				36230D894C95261D45BECEFCE8F3B9C1 /* YQWaterFallLayout */,
 			);
-			name = YQWaterFallLayout;
+			name = YQKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		CB6430817741ABB1902202EDD1B6DC73 /* Pod */ = {
+		BAF862B039B3989877E3258E2AB19DEB /* YQPageControl */ = {
 			isa = PBXGroup;
 			children = (
-				98F22411FB6C2582F41BA671D2BC95C5 /* LICENSE */,
-				4248418FA97E098E878F2A0DE698BFCA /* README.md */,
-				EFAE6E85347127D1B14FCA4C1256BDDC /* YQKit.podspec */,
+				C8C6A400BA330176A0514BC5FE6C0022 /* YQPageControl.h */,
+				630437B0B0E3C14A9189ACF3A20A5AED /* YQPageControl.m */,
 			);
-			name = Pod;
+			name = YQPageControl;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -363,6 +339,15 @@
 			);
 			sourceTree = "<group>";
 		};
+		D0D468E0C561F5912F917CCC73A72D57 /* YQAppPurchase */ = {
+			isa = PBXGroup;
+			children = (
+				0D84480C6FF342455D6DE0EC9ABD7000 /* YQAppPurchase.h */,
+				DA9C7F3992BF3EF42885E13566AC7F21 /* YQAppPurchase.m */,
+			);
+			name = YQAppPurchase;
+			sourceTree = "<group>";
+		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -371,13 +356,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DD12D7B3A5D0F93070D6D757923970C2 /* XJSwitch */ = {
+		DAFBB2E55830874727AF591FFE705946 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				56F83A4690D3F3C66F411A7AB622AE34 /* XJSwitch.h */,
-				8F7DF8BF8503B829BADAA30238EAAAC2 /* XJSwitch.m */,
+				33E3E379008B431F5300A31BD94E72CC /* YQKit.modulemap */,
+				DCDF4D531AA855094F5B4B35DFA0C15A /* YQKit-dummy.m */,
+				1B1697975FDB132622960342E2004B5D /* YQKit-Info.plist */,
+				63042E0EFBA3BD659C1BA06E1F93EFD8 /* YQKit-prefix.pch */,
+				344C1FC3DB75E352FA1E848CEDCC2C1B /* YQKit-umbrella.h */,
+				870CD7102E1DC798D30C5C987896F61D /* YQKit.debug.xcconfig */,
+				1A2A739CB33690FA0028CAA36DC86469 /* YQKit.release.xcconfig */,
 			);
-			name = XJSwitch;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YQKit";
 			sourceTree = "<group>";
 		};
 		DF877E61848F8EA80431995205939F48 /* Pods-YQKit_Example */ = {
@@ -395,6 +386,15 @@
 			);
 			name = "Pods-YQKit_Example";
 			path = "Target Support Files/Pods-YQKit_Example";
+			sourceTree = "<group>";
+		};
+		E36E9398A85AE28AD4618BE8C6D5276E /* YQPagingEnableLayout */ = {
+			isa = PBXGroup;
+			children = (
+				94507CDEB1644E0AF26B319D6843D6A2 /* YQPagingEnableLayout.h */,
+				6993B8F5194B8DDC83BD499C287C7657 /* YQPagingEnableLayout.m */,
+			);
+			name = YQPagingEnableLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,30 +416,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F93658A20FB6926C2F7B83E81414512A /* Headers */ = {
+		CDE004CD5BFCF16978E2C054BD990C45 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F99B12BB27F06471E4CD1B9472E12FBC /* Attribute.h in Headers */,
-				C5299C358EE7A913280AE6D3708C5858 /* LayoutAttributeTools.h in Headers */,
-				18B066570A624D48F8A61B42345D09A4 /* LeftAlignedFlowLayout.h in Headers */,
-				C904AEEAC3165987DCD9D03FA6480FDC /* PagingEnableLayout.h in Headers */,
-				08501F14FDA675AFC336512BFEB84953 /* RightAlignedFlowLayout.h in Headers */,
-				F2CF4152B5C4125C1581208D7CCEF1DC /* UIView+YQActionSheet.h in Headers */,
-				9A39AAC57ECC25F830310F6618383FF1 /* WOPageControl.h in Headers */,
-				37120BC35E42D15A59B40FF05C6EB951 /* XJSwitch.h in Headers */,
-				59B3786B114903B3C72B96EE4A3A7562 /* YQActionSheet.h in Headers */,
-				F27D81303710315B169F704BD80811F8 /* YQAppPurchase.h in Headers */,
-				509AF4058B5782C19B25E6FE78CFFFF4 /* YQAudio.h in Headers */,
-				750613AECDB13664467B3ED50526F471 /* YQAudioPlay.h in Headers */,
-				00A92B815C7775F58321C3809D62E2F1 /* YQAudioProtocol.h in Headers */,
-				AAFF4F5FEA57E60DA4E9DE8D3CBE2A5E /* YQButton.h in Headers */,
-				81BD3C15F09330EBDCE559B38F7098A7 /* YQFlowLayout.h in Headers */,
-				2E6A0FB290B8745834A53722BD2D4778 /* YQFlowLayoutMacro.h in Headers */,
-				F9A40F54B160712B69A3CD68B11E5ADF /* YQFlowLayoutProtocol.h in Headers */,
-				DCC379576D5ADDB797F9FD27E907DC61 /* YQKit-umbrella.h in Headers */,
-				0C2E0634A3D213ADDA7B664D8B47EA86 /* YQPageControl.h in Headers */,
-				E1E6024725CA5A7963B763AF5D724E10 /* YQWaterFallLayout.h in Headers */,
+				95E27A57759EC2C7AB425E97B35D97F1 /* Attribute.h in Headers */,
+				EED3E98725BEB1BB4DA7A91C96B89D80 /* LayoutAttributeTools.h in Headers */,
+				A1269160CFAE8EF0E25994BDD8B8A604 /* LeftAlignedFlowLayout.h in Headers */,
+				49FF97C3278FDF1734295FE2CD4F3239 /* RightAlignedFlowLayout.h in Headers */,
+				7B080B624E0DB2A8FFC7416D33F62D98 /* UIView+YQActionSheet.h in Headers */,
+				8501773E9B1D11554AE09D4918E59104 /* YQActionSheet.h in Headers */,
+				1A99E993933AB463825BC39154B4A7F8 /* YQAppPurchase.h in Headers */,
+				C293AEEC9B0C1BA79CBD3457B3B11874 /* YQAudio.h in Headers */,
+				BE061442F7B2A892A1E93B65DE07FADC /* YQAudioPlay.h in Headers */,
+				9E426DB14A89A8ECB8EA39F755949C5D /* YQAudioProtocol.h in Headers */,
+				D157E97F480304B4021836961A206F66 /* YQButton.h in Headers */,
+				5FED762DB6C117D42AEB4D6EC93D7865 /* YQFlowLayout.h in Headers */,
+				107F76AA5725FAA8C9787D3E6CB8360C /* YQFlowLayoutMacro.h in Headers */,
+				28178AA5FD2EF778C0679CB1527EBD30 /* YQFlowLayoutProtocol.h in Headers */,
+				626F97C211959568146DEF20E6F33588 /* YQKit-umbrella.h in Headers */,
+				161A93BD4908D638AA42FC071D751E77 /* YQlinearPageControl.h in Headers */,
+				C01899CD3CDCCCA10F7CB9AF4BA44B55 /* YQPageControl.h in Headers */,
+				0A01EC8C7C698D36201181C0C321BEB0 /* YQPagingEnableLayout.h in Headers */,
+				51924F3E9C0532C4224B1750D22BDFAE /* YQSwitch.h in Headers */,
+				FC7881025B7BC0EDD2A0375DD0022747 /* YQWaterFallLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,8 +450,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91776826CECBC0D2DD792E02E1EBA901 /* Build configuration list for PBXNativeTarget "YQKit" */;
 			buildPhases = (
-				F93658A20FB6926C2F7B83E81414512A /* Headers */,
-				A0CE26DC899FA098A9FD8D910340E4AC /* Sources */,
+				CDE004CD5BFCF16978E2C054BD990C45 /* Headers */,
+				57E67E9799C9EC1D9835B3B60FA06C2B /* Sources */,
 				24A5A0740A06A61B1948271A5AB80136 /* Frameworks */,
 				ED66159EBD33F6276746E8D3C5243416 /* Resources */,
 			);
@@ -572,27 +572,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0CE26DC899FA098A9FD8D910340E4AC /* Sources */ = {
+		57E67E9799C9EC1D9835B3B60FA06C2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				893470AD17A6BD6C15573E2C2637E3A6 /* Attribute.m in Sources */,
-				8FC382B56019128C99F0D2E1A3B03F55 /* LayoutAttributeTools.m in Sources */,
-				9E9052E82107D4AAE0E760A3926C7A04 /* LeftAlignedFlowLayout.m in Sources */,
-				A663093A5B773548B8C19DE950F1B3D6 /* PagingEnableLayout.m in Sources */,
-				DD5BE2655F2816ED7281AC0A20745460 /* RightAlignedFlowLayout.m in Sources */,
-				D0EB974651BB9E0C1BA5CCB436F1F6A3 /* UIView+YQActionSheet.m in Sources */,
-				80D2AFA423A9AB9C01CF8114C714C766 /* WOPageControl.m in Sources */,
-				EE6ACB7C300001BFFB49E499BAA844D0 /* XJSwitch.m in Sources */,
-				0939BEEA9D24A70EC29F952803D9C2CF /* YQActionSheet.m in Sources */,
-				298A7C41E2A477A9AA4DA3FEAA4F270B /* YQAppPurchase.m in Sources */,
-				698149F362372DBC0AD3248105B110E7 /* YQAudio.m in Sources */,
-				8CA36A8558B0ADB07317D3F4EE0AEADE /* YQAudioPlay.m in Sources */,
-				C36CF708FDBDA06B9F0464009B51827D /* YQButton.m in Sources */,
-				EF34BFBDE651377DA7ED2334F3396449 /* YQFlowLayout.m in Sources */,
-				9AF603F372D5A7F1F610C8B811B81B7A /* YQKit-dummy.m in Sources */,
-				AF58191AEB2D0E8322B2CA21257E6C88 /* YQPageControl.m in Sources */,
-				CC52C4ACF9BA4C7D4A8BDF35D378A38D /* YQWaterFallLayout.m in Sources */,
+				1D493BFF3C9B9CFCE9854147F90D8317 /* Attribute.m in Sources */,
+				924C7F97E695B3225AA3D56467BE3625 /* LayoutAttributeTools.m in Sources */,
+				1E877584339C55AA7B95EBF1946908F5 /* LeftAlignedFlowLayout.m in Sources */,
+				0B26E40CD9ACB105A833CAD210B3A55A /* RightAlignedFlowLayout.m in Sources */,
+				6D6F75F68E757DF6B80A2E56CB0760AF /* UIView+YQActionSheet.m in Sources */,
+				4050F7C73BAC15DB8F29C8F7777B61F8 /* YQActionSheet.m in Sources */,
+				47B53CC103E0BC191C79F0E3E63CC7D1 /* YQAppPurchase.m in Sources */,
+				02BE758812CC313241B7EBD9F55F63BA /* YQAudio.m in Sources */,
+				92F1CE3638087558065199A2743FEAC7 /* YQAudioPlay.m in Sources */,
+				F722B8C02FD533B7B380C6D142431E63 /* YQButton.m in Sources */,
+				BAB347469C1D87E66B7A7FB6C93B7D09 /* YQFlowLayout.m in Sources */,
+				42CCDFC3EF8DFF3D32E95B1C0E86A031 /* YQKit-dummy.m in Sources */,
+				14EF3F81443DAF67CC681405D99EA5A8 /* YQlinearPageControl.m in Sources */,
+				22E3F7E6C0FA19D0D2336BCF4AD2D35E /* YQPageControl.m in Sources */,
+				89D3EA6151DA7FD2D66CEA026D3D1CE9 /* YQPagingEnableLayout.m in Sources */,
+				E5F08A904D5627A738B8C68955FBCA23 /* YQSwitch.m in Sources */,
+				891EE6B7ECE6275259B448377FBA3C3C /* YQWaterFallLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -682,7 +682,7 @@
 		};
 		5622731D4BC8EA9266C207014DDF9794 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 200340B94F642BB48A2A2750E18CC442 /* YQKit.release.xcconfig */;
+			baseConfigurationReference = 1A2A739CB33690FA0028CAA36DC86469 /* YQKit.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -746,7 +746,7 @@
 		};
 		6A956842431E58A8A63EA5F735195AA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5227996FA368A7D91D5909B0E4983976 /* YQKit.debug.xcconfig */;
+			baseConfigurationReference = 870CD7102E1DC798D30C5C987896F61D /* YQKit.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

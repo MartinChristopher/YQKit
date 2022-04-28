@@ -1,16 +1,14 @@
 //
-//  XJSwitch.h
-//  XJSwitch
+//  YQSwitch.h
 //
 //  Created by LXJ on 2017/11/24.
-//  Copyright © 2017年 LianLuo. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@protocol XJSwitchDelegate;
+@protocol YQSwitchDelegate;
 
-@interface XJSwitch : UIView
+@interface YQSwitch : UIView
 
 /**
  switch on color
@@ -55,16 +53,16 @@
 @property (nonatomic, assign) BOOL on;
 
 
-@property (nonatomic, weak) id <XJSwitchDelegate> delegate;
+@property (nonatomic, weak) id <YQSwitchDelegate> delegate;
 
 @end
 
-@protocol XJSwitchDelegate <NSObject>
+@protocol YQSwitchDelegate <NSObject>
 
 @optional
 
-- (void)animationDidStopForSwitch:(XJSwitch *)switchView;
+- (void)animationDidStopForSwitch:(YQSwitch *)switchView;
 
-- (void)valueDidChanged:(XJSwitch *)switchView on:(BOOL)on;
+- (void)valueDidChanged:(YQSwitch *)switchView on:(BOOL)on;
 
 @end
