@@ -1,6 +1,5 @@
 PODS:
   - YQKit (0.0.2):
-    - YQKit/MJAudio (= 0.0.2)
     - YQKit/PagingEnableLayout (= 0.0.2)
     - YQKit/WOPageControl (= 0.0.2)
     - YQKit/XJSwitch (= 0.0.2)
@@ -10,7 +9,6 @@ PODS:
     - YQKit/YQFlowLayout (= 0.0.2)
     - YQKit/YQPageControl (= 0.0.2)
     - YQKit/YQWaterFallLayout (= 0.0.2)
-  - YQKit/MJAudio (0.0.2)
   - YQKit/PagingEnableLayout (0.0.2)
   - YQKit/WOPageControl (0.0.2)
   - YQKit/XJSwitch (0.0.2)
@@ -29,7 +27,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YQKit: 9b018897ced491c31a3e9fe84a8120f10dad5241
+  YQKit: 7fc664c42efa6be78f3f29978bf0c0d9f47ca823
 
 PODFILE CHECKSUM: fd076af1e436e665a066df82b3fa54f96e0fbdad
 

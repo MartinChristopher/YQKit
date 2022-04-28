@@ -58,10 +58,6 @@ TODO: Add long description of the pod here.
   switch.source_files = 'YQKit/Classes/XJSwitch/**/*'
   end
   
-  s.subspec 'MJAudio' do |record|
-  record.source_files = 'YQKit/Classes/MJAudio/**/*'
-  end
-  
   # s.resource_bundles = {
   #   'YQKit' => ['YQKit/Assets/*.png']
   # }
