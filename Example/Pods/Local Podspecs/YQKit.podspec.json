@@ -1,6 +1,6 @@
 {
   "name": "YQKit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "A short description of YQKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/MartinChristopher/YQKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/MartinChristopher/YQKit.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -46,6 +46,18 @@
     {
       "name": "YQWaterFallLayout",
       "source_files": "YQKit/Classes/YQWaterFallLayout/**/*"
+    },
+    {
+      "name": "PagingEnableLayout",
+      "source_files": "YQKit/Classes/PagingEnableLayout/**/*"
+    },
+    {
+      "name": "XJSwitch",
+      "source_files": "YQKit/Classes/XJSwitch/**/*"
+    },
+    {
+      "name": "MJAudio",
+      "source_files": "YQKit/Classes/MJAudio/**/*"
     }
   ]
 }

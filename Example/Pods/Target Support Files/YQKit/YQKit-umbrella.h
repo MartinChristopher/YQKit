@@ -10,7 +10,15 @@
 #endif
 #endif
 
+#import "lame.h"
+#import "MJAudio.h"
+#import "MJAudioFile.h"
+#import "MJAudioProtocol.h"
+#import "MJAudioRecord.h"
+#import "MJAudioTimer.h"
+#import "PagingEnableLayout.h"
 #import "WOPageControl.h"
+#import "XJSwitch.h"
 #import "UIView+YQActionSheet.h"
 #import "YQActionSheet.h"
 #import "YQButton.h"

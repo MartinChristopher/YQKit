@@ -1,19 +1,25 @@
 PODS:
-  - YQKit (0.0.1):
-    - YQKit/WOPageControl (= 0.0.1)
-    - YQKit/YQActionSheet (= 0.0.1)
-    - YQKit/YQAppPurchase (= 0.0.1)
-    - YQKit/YQAudio (= 0.0.1)
-    - YQKit/YQFlowLayout (= 0.0.1)
-    - YQKit/YQPageControl (= 0.0.1)
-    - YQKit/YQWaterFallLayout (= 0.0.1)
-  - YQKit/WOPageControl (0.0.1)
-  - YQKit/YQActionSheet (0.0.1)
-  - YQKit/YQAppPurchase (0.0.1)
-  - YQKit/YQAudio (0.0.1)
-  - YQKit/YQFlowLayout (0.0.1)
-  - YQKit/YQPageControl (0.0.1)
-  - YQKit/YQWaterFallLayout (0.0.1)
+  - YQKit (0.0.2):
+    - YQKit/MJAudio (= 0.0.2)
+    - YQKit/PagingEnableLayout (= 0.0.2)
+    - YQKit/WOPageControl (= 0.0.2)
+    - YQKit/XJSwitch (= 0.0.2)
+    - YQKit/YQActionSheet (= 0.0.2)
+    - YQKit/YQAppPurchase (= 0.0.2)
+    - YQKit/YQAudio (= 0.0.2)
+    - YQKit/YQFlowLayout (= 0.0.2)
+    - YQKit/YQPageControl (= 0.0.2)
+    - YQKit/YQWaterFallLayout (= 0.0.2)
+  - YQKit/MJAudio (0.0.2)
+  - YQKit/PagingEnableLayout (0.0.2)
+  - YQKit/WOPageControl (0.0.2)
+  - YQKit/XJSwitch (0.0.2)
+  - YQKit/YQActionSheet (0.0.2)
+  - YQKit/YQAppPurchase (0.0.2)
+  - YQKit/YQAudio (0.0.2)
+  - YQKit/YQFlowLayout (0.0.2)
+  - YQKit/YQPageControl (0.0.2)
+  - YQKit/YQWaterFallLayout (0.0.2)
 
 DEPENDENCIES:
   - YQKit (from `../`)
@@ -23,7 +29,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YQKit: 555d05f9b58fcfa812d238e24ec4db453087dc71
+  YQKit: 9b018897ced491c31a3e9fe84a8120f10dad5241
 
 PODFILE CHECKSUM: fd076af1e436e665a066df82b3fa54f96e0fbdad
 
