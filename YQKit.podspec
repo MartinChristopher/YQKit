@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YQKit'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'A short description of YQKit.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -66,11 +66,15 @@ TODO: Add long description of the pod here.
   privacy.source_files = 'YQKit/Classes/YQPrivacyAuthTool/**/*'
   end
   
+  s.subspec 'YQNetWorking' do |network|
+  network.source_files = 'YQKit/Classes/YQNetWorking/**/*'
+  end
+  
   # s.resource_bundles = {
   #   'YQKit' => ['YQKit/Assets/*.png']
   # }
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '4.0.1'
 end
