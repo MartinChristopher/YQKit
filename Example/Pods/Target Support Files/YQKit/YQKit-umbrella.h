@@ -25,8 +25,10 @@
 #import "YQFlowLayoutMacro.h"
 #import "YQFlowLayoutProtocol.h"
 #import "YQlinearPageControl.h"
+#import "YQLocationManager.h"
 #import "YQPageControl.h"
 #import "YQPagingEnableLayout.h"
+#import "YQPrivacyAuthTool.h"
 #import "YQSwitch.h"
 #import "YQWaterFallLayout.h"
 
