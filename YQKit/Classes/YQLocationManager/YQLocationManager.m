@@ -38,8 +38,12 @@
         UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"Setting" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             NSURL *url= [NSURL URLWithString:UIApplicationOpenSettingsURLString];
             if( [[UIApplication sharedApplication]canOpenURL:url] ) {
-                [[UIApplication sharedApplication]openURL:url options:@{}completionHandler:^(BOOL success) {
-                }];
+                if (@available(iOS 10.0, *)) {
+                    [[UIApplication sharedApplication]openURL:url options:@{}completionHandler:^(BOOL success) {
+                    }];
+                } else {
+                    // Fallback on earlier versions
+                }
             }
         }];
         [alert addAction:okAction];
@@ -121,8 +125,8 @@
     //停止定位
     [self.locationManager stopUpdatingLocation];
     // 获取定位经纬度
-    CLLocationCoordinate2D coor2D = newLocation.coordinate;
-    NSLog(@"纬度 = %f, 经度 = %f", coor2D.latitude, coor2D.longitude);
+//    CLLocationCoordinate2D coor2D = newLocation.coordinate;
+//    NSLog(@"经纬度 = (%f,%f)", coor2D.latitude, coor2D.longitude);
     
     // 创建编码对象，获取所在城市
     CLGeocoder *geocoder = [[CLGeocoder alloc] init];
@@ -135,9 +139,9 @@
         }
         // 获取地标
         CLPlacemark *placeMark = [placemarks firstObject];
-        NSLog(@"获取地标 = %@,", placeMark);
+//        NSLog(@"获取地标 = %@,", placeMark);
         if (strongSelf.sendCompletion) {
-            strongSelf.sendCompletion(newLocation.coordinate, [NSString stringWithFormat:@"%@, %@", placeMark.administrativeArea, placeMark.locality]);
+            strongSelf.sendCompletion(newLocation.coordinate, placeMark);
         }
     }];
 }

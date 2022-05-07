@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)startLocation;
 - (void)stopLocation;
 
-@property (nonatomic, copy) void (^sendCompletion)(CLLocationCoordinate2D coordinate, NSString *address);
+@property (nonatomic, copy) void (^sendCompletion)(CLLocationCoordinate2D coordinate, CLPlacemark *placemark);
 
 @end
 

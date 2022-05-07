@@ -282,37 +282,45 @@ static YQPrivacyAuthTool *tool = nil;
     self.block = block;
     __weak typeof(self) weakSelf = self;
     _tipStr = @"Please enable notification rights in the Settings - Notifications - option on the iPhone";
-    [[UNUserNotificationCenter currentNotificationCenter] getNotificationSettingsWithCompletionHandler:^(UNNotificationSettings * _Nonnull settings) {
-        //已授权
-        if (settings.authorizationStatus == UNAuthorizationStatusAuthorized) {
-            weakSelf.block(YES, AVAuthStatusAuthorized);
-        } else {
-            weakSelf.block(NO, AVAuthStatusDenied);
-            [self pushSetting:isPushSetting];
-        }
-    }];
+    if (@available(iOS 10.0, *)) {
+        [[UNUserNotificationCenter currentNotificationCenter] getNotificationSettingsWithCompletionHandler:^(UNNotificationSettings * _Nonnull settings) {
+            //已授权
+            if (settings.authorizationStatus == UNAuthorizationStatusAuthorized) {
+                weakSelf.block(YES, AVAuthStatusAuthorized);
+            } else {
+                weakSelf.block(NO, AVAuthStatusDenied);
+                [self pushSetting:isPushSetting];
+            }
+        }];
+    } else {
+        // Fallback on earlier versions
+    }
 }
 
 #pragma mark - <注册通知>
 
 + (void)requestNotificationAuth {
-    UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
-    //必须写代理，不然无法监听通知的接收与点击事件
-    center.delegate = (id)self;
-    [center requestAuthorizationWithOptions:(UNAuthorizationOptionBadge | UNAuthorizationOptionSound | UNAuthorizationOptionAlert) completionHandler:^(BOOL granted, NSError * _Nullable error) {
-        if (!error && granted) {
-            //用户点击允许
-//            NSLog(@"注册通知成功");
-        } else {
-            //用户点击不允许
-//            NSLog(@"注册通知失败");
-        }
-    }];
-    // 可以通过 getNotificationSettingsWithCompletionHandler 获取权限设置
-    //之前注册推送服务，用户点击了同意还是不同意，以及用户之后又做了怎样的更改我们都无从得知，现在 apple 开放了这个 API，我们可以直接获取到用户的设定信息了。注意UNNotificationSettings是只读对象哦，不能直接修改！
-    [center getNotificationSettingsWithCompletionHandler:^(UNNotificationSettings * _Nonnull settings) {
-//        NSLog(@"========%@",settings);
-    }];
+    if (@available(iOS 10.0, *)) {
+        UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
+        //必须写代理，不然无法监听通知的接收与点击事件
+        center.delegate = (id)self;
+        [center requestAuthorizationWithOptions:(UNAuthorizationOptionBadge | UNAuthorizationOptionSound | UNAuthorizationOptionAlert) completionHandler:^(BOOL granted, NSError * _Nullable error) {
+            if (!error && granted) {
+                //用户点击允许
+                //            NSLog(@"注册通知成功");
+            } else {
+                //用户点击不允许
+                //            NSLog(@"注册通知失败");
+            }
+        }];
+        // 可以通过 getNotificationSettingsWithCompletionHandler 获取权限设置
+        //之前注册推送服务，用户点击了同意还是不同意，以及用户之后又做了怎样的更改我们都无从得知，现在 apple 开放了这个 API，我们可以直接获取到用户的设定信息了。注意UNNotificationSettings是只读对象哦，不能直接修改！
+        [center getNotificationSettingsWithCompletionHandler:^(UNNotificationSettings * _Nonnull settings) {
+            //        NSLog(@"========%@",settings);
+        }];
+    } else {
+        // Fallback on earlier versions
+    }
 }
 
 #pragma mark - <跳转设置>
@@ -327,8 +335,12 @@ static YQPrivacyAuthTool *tool = nil;
         UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"Setting" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             NSURL *url= [NSURL URLWithString:UIApplicationOpenSettingsURLString];
             if( [[UIApplication sharedApplication]canOpenURL:url] ) {
-                [[UIApplication sharedApplication]openURL:url options:@{}completionHandler:^(BOOL success) {
-                }];
+                if (@available(iOS 10.0, *)) {
+                    [[UIApplication sharedApplication]openURL:url options:@{}completionHandler:^(BOOL success) {
+                    }];
+                } else {
+                    // Fallback on earlier versions
+                }
             }
         }];
         [alert addAction:okAction];
