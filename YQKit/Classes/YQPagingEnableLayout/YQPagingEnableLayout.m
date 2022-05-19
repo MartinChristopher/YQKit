@@ -27,7 +27,7 @@
 }
 
 - (NSArray<UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect {
-    NSArray *attributesArray = [super layoutAttributesForElementsInRect:rect];
+    NSArray *attributesArray = [[NSArray alloc] initWithArray:[super layoutAttributesForElementsInRect:rect] copyItems:YES];
     CGRect visibleRect = CGRectMake(self.collectionView.contentOffset.x, self.collectionView.contentOffset.y, self.collectionView.bounds.size.width, self.collectionView.bounds.size.height);
     for (UICollectionViewLayoutAttributes *attributes in attributesArray) {
         float distance = (visibleRect.origin.x + visibleRect.size.width / 2.0) - attributes.center.x;
