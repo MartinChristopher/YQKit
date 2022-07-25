@@ -22,7 +22,7 @@ __LINE__, __func__);\
 NSString *const YQNetworkStatus = @"NetWorkStatus";
 static NSString *sg_privateNetworkBaseUrl = nil;
 static BOOL sg_isEnableInterfaceDebug = NO;
-static BOOL sg_shouldAutoEncode = NO;
+static BOOL sg_shouldAutoEncode = YES;
 static NSMutableDictionary *sg_httpHeaders = nil;
 static YQResponseType sg_responseType = YQResponseTypeJSON;
 static YQRequestType  sg_requestType  = YQRequestTypeJSON;
@@ -30,7 +30,7 @@ static NSMutableArray *sg_requestTasks;
 static BOOL sg_cacheGet = YES;
 static BOOL sg_cachePost = NO;
 static BOOL sg_shouldCallbackOnCancelRequest = YES;
-static NSInteger sg_numberOfTimesToRetry = 0;
+static NSInteger sg_numberOfTimesToRetry = 1;
 static NSTimeInterval sg_timeoutInterval = 5.0f;
 static NSMutableDictionary *sg_timesOfRetryURLs;
 
