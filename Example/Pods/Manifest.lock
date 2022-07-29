@@ -14,43 +14,43 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - YQKit (0.0.6):
+  - YQKit (0.0.7):
     - AFNetworking (= 4.0.1)
-    - YQKit/YQActionSheet (= 0.0.6)
-    - YQKit/YQAppPurchase (= 0.0.6)
-    - YQKit/YQAudio (= 0.0.6)
-    - YQKit/YQFlowLayout (= 0.0.6)
-    - YQKit/YQLinearPageControl (= 0.0.6)
-    - YQKit/YQLocationManager (= 0.0.6)
-    - YQKit/YQNetWorking (= 0.0.6)
-    - YQKit/YQPageControl (= 0.0.6)
-    - YQKit/YQPagingEnableLayout (= 0.0.6)
-    - YQKit/YQPrivacyAuthTool (= 0.0.6)
-    - YQKit/YQSwitch (= 0.0.6)
-    - YQKit/YQWaterFallLayout (= 0.0.6)
-  - YQKit/YQActionSheet (0.0.6):
+    - YQKit/YQActionSheet (= 0.0.7)
+    - YQKit/YQAppPurchase (= 0.0.7)
+    - YQKit/YQAudio (= 0.0.7)
+    - YQKit/YQFlowLayout (= 0.0.7)
+    - YQKit/YQLinearPageControl (= 0.0.7)
+    - YQKit/YQLocationManager (= 0.0.7)
+    - YQKit/YQNetWorking (= 0.0.7)
+    - YQKit/YQPageControl (= 0.0.7)
+    - YQKit/YQPagingEnableLayout (= 0.0.7)
+    - YQKit/YQPrivacyAuthTool (= 0.0.7)
+    - YQKit/YQSwitch (= 0.0.7)
+    - YQKit/YQWaterFallLayout (= 0.0.7)
+  - YQKit/YQActionSheet (0.0.7):
     - AFNetworking (= 4.0.1)
-  - YQKit/YQAppPurchase (0.0.6):
+  - YQKit/YQAppPurchase (0.0.7):
     - AFNetworking (= 4.0.1)
-  - YQKit/YQAudio (0.0.6):
+  - YQKit/YQAudio (0.0.7):
     - AFNetworking (= 4.0.1)
-  - YQKit/YQFlowLayout (0.0.6):
+  - YQKit/YQFlowLayout (0.0.7):
     - AFNetworking (= 4.0.1)
-  - YQKit/YQLinearPageControl (0.0.6):
+  - YQKit/YQLinearPageControl (0.0.7):
     - AFNetworking (= 4.0.1)
-  - YQKit/YQLocationManager (0.0.6):
+  - YQKit/YQLocationManager (0.0.7):
     - AFNetworking (= 4.0.1)
-  - YQKit/YQNetWorking (0.0.6):
+  - YQKit/YQNetWorking (0.0.7):
     - AFNetworking (= 4.0.1)
-  - YQKit/YQPageControl (0.0.6):
+  - YQKit/YQPageControl (0.0.7):
     - AFNetworking (= 4.0.1)
-  - YQKit/YQPagingEnableLayout (0.0.6):
+  - YQKit/YQPagingEnableLayout (0.0.7):
     - AFNetworking (= 4.0.1)
-  - YQKit/YQPrivacyAuthTool (0.0.6):
+  - YQKit/YQPrivacyAuthTool (0.0.7):
     - AFNetworking (= 4.0.1)
-  - YQKit/YQSwitch (0.0.6):
+  - YQKit/YQSwitch (0.0.7):
     - AFNetworking (= 4.0.1)
-  - YQKit/YQWaterFallLayout (0.0.6):
+  - YQKit/YQWaterFallLayout (0.0.7):
     - AFNetworking (= 4.0.1)
 
 DEPENDENCIES:
@@ -66,7 +66,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  YQKit: 264200305a48464c99403886c9c32eac483bcaa7
+  YQKit: e50336e7815d8be91122e671461b72cc79327a46
 
 PODFILE CHECKSUM: fd076af1e436e665a066df82b3fa54f96e0fbdad
 
